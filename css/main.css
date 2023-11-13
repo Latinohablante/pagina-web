@@ -26,7 +26,7 @@ body {
  /* SLIDER IMAGENES */
 
  .carousel-inner {
-    max-height: 30rem;
+    max-height: 45rem;
  }
 
 
@@ -62,7 +62,7 @@ body {
  /* MAPA */
 
  .mapa {
-    background: url();
+    background: url(../img/miami.PNG);
     width: 100%;
     height: 500px;
  }
@@ -98,12 +98,12 @@ body {
 
 }
 
-numeros-local div:not(:last-child) {
+#numeros-local div:not(:last-child) {
     border-right: 2px solid #3f3f3f;
 
 }
 
-numeros-local div:not(:first-child) {
+#numeros-local div:not(:first-child) {
     padding-left: 20px;
 
 }
@@ -120,4 +120,37 @@ numeros-local div:not(:first-child) {
     background-color: #1b2a4e;
     min-height: 500px;
     position:relative;
+}
+
+/* CONTACTOS FORMULARIO */
+#contenedor-formulario {
+    position:absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+/* FOOTER */
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos a i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+
 }
