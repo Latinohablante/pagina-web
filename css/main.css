@@ -77,6 +77,10 @@ body {
     padding-top: 150px;
  }
 
+ .wrapper p {
+    text-align: center;
+ }
+
  /* MEDIA QUERIES PANTALLA ANCHA */
  @media(max-width:1200px){
     #local {
@@ -88,6 +92,8 @@ body {
         margin:auto;
         padding-top: 50px;
     }
+
+
 } 
 
 /* SECCION EQUIPOS BUCARAMANGA */
