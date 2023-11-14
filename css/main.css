@@ -37,9 +37,9 @@ body {
         width: 90% !important;
     }
 
-    #comunidad p {
-        display:none
-    }
+    /* #comunidad p {
+        display: none;
+    } */
     .servicio-fila {
         width: 100% !important;
         text-align: center;
@@ -60,7 +60,6 @@ body {
  }
 
  /* MAPA */
-
  .mapa {
     background: url(../img/miami.PNG);
     width: 100%;
